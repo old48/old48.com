@@ -1,0 +1,77 @@
+body {
+	background-image: url(/img/bg.jpg);
+	padding: 50px;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: #00f;
+	text-shadow: 0px 2px 0px #000;
+}
+
+.header {
+	display: inline-block;
+	width: 960px;
+}
+
+.body {
+	text-align: left;
+	background: url(/img/tile.jpg);
+	display: inline-block;
+	width: 960px;
+	padding: 10px;
+	margin-top: 10px;
+	min-height: 100px;
+	box-shadow: 5px 5px 5px #000;
+	border: 3px solid rgb(255, 196, 0);
+}
+
+.sidebar {
+	position: fixed;
+	/* top: 0; */
+	left: 50px;
+	background: rgb(194, 243, 255);
+	width: 240px;
+	padding: 10px;
+	min-height: 100px;
+	box-shadow: 5px 5px 5px #000;
+	border: 3px solid rgb(255, 196, 0);
+}
+
+.page {
+	float: left;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.gallery img {
+	height: 25%;
+}
+
+marquee h1 {
+	font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
+	color: red;
+	text-transform: uppercase;
+}
+
+table thead {
+	background-color: azure;
+	font-weight: bold;	
+}
+
+table thead th {
+	border: 1px solid #000;
+}
+
+table tbody {
+	background-color: #fff;
+}
+
+table tbody tr td {
+	padding: 5px;
+	border: 1px solid #000;
+	border-spacing: 0;
+	text-align: left;
+}
